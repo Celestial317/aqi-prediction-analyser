@@ -2,7 +2,7 @@
 
 ```
 Directory structure:
-└── celestial317-aqi-prediction-analyser/
+└── aqi-prediction-analyser/
     ├── README.md
     ├── eslint.config.js
     ├── index.html
