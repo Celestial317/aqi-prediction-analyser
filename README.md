@@ -1,6 +1,6 @@
 # VaayuNet AQI Analysis and Localised Prediction
 
-![Web APP URL](https://vaayunet.netlify.app/)
+[Web APP URL](https://vaayunet.netlify.app/)
 
 VaayuNet is a sophisticated, dual-model web application designed to bridge the critical information gap in air quality monitoring. By leveraging machine learning, it provides both real-time, localized Air Quality Index (AQI) analysis from a simple photograph and long-term AQI trend forecasting.
 
