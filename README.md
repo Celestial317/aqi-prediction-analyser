@@ -41,7 +41,7 @@ This information is presented in a clean, intuitive dashboard, providing users w
 Our system is designed with a clear data flow, from input to a comprehensive user-facing dashboard.
 
 **Process Flow:**
-<img width="743" height="884" alt="image" src="https://github.com/user-attachments/assets/a631e661-f940-4062-a2a6-0f3a46de38d2" />
+<img width="371.5" height="442" alt="image" src="https://github.com/user-attachments/assets/a631e661-f940-4062-a2a6-0f3a46de38d2" />
 
 **Tech Stack:**
 * **Frontend**: React, TypeScript, Vite
@@ -55,14 +55,14 @@ Our system is designed with a clear data flow, from input to a comprehensive use
 ## Methodology & Data
 
 ### CNN Model (Image-to-AQI)
-<img width="850" height="391" alt="AlexNet" src="https://github.com/user-attachments/assets/e91056ed-200a-48f3-baab-6dbefd9abfdf" />
+<img width="425" height="195.5" alt="AlexNet" src="https://github.com/user-attachments/assets/e91056ed-200a-48f3-baab-6dbefd9abfdf" />
 
 * **Dataset**: Air pollution image dataset, containing 456 real-world images categorized into 5 AQI levels.
 * **Purpose**: To classify an environmental image into an AQI category.
 * **Performance**: Achieves an AUC score of over 0.7, indicating reliable classification.
 
 ### RNN Model (Time-Series Forecasting)
-<img width="984" height="499" alt="lstm" src="https://github.com/user-attachments/assets/cc383a5f-07e1-48dc-a830-f78096ebdf54" />
+<img width="492" height="239.5" alt="lstm" src="https://github.com/user-attachments/assets/cc383a5f-07e1-48dc-a830-f78096ebdf54" />
 
 * **Dataset**: Official time-series data from the Central Pollution Control Board.
 * **Purpose**: To analyze historical trends and generate multi-day AQI forecasts.
