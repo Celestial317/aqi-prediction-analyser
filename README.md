@@ -43,6 +43,7 @@ Our system is designed with a clear data flow, from input to a comprehensive use
 **Process Flow:**
 
 <img width="371.5" height="442" alt="image" src="https://github.com/user-attachments/assets/a631e661-f940-4062-a2a6-0f3a46de38d2" />
+
 **Tech Stack:**
 * **Frontend**: React, TypeScript, Vite
 * **Styling**: Tailwind CSS
