@@ -1,6 +1,6 @@
 # VaayuNet AQI Analysis and Localised Prediction
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_BADGE_ID/deploy-status)](https://vaayunet.netlify.app/)
+![Web APP URL](https://vaayunet.netlify.app/)
 
 VaayuNet is a sophisticated, dual-model web application designed to bridge the critical information gap in air quality monitoring. By leveraging machine learning, it provides both real-time, localized Air Quality Index (AQI) analysis from a simple photograph and long-term AQI trend forecasting.
 
@@ -41,7 +41,7 @@ This information is presented in a clean, intuitive dashboard, providing users w
 Our system is designed with a clear data flow, from input to a comprehensive user-facing dashboard.
 
 **Process Flow:**
-![Process Flow](https://i.imgur.com/u1yS2g6.png)
+<img width="743" height="884" alt="image" src="https://github.com/user-attachments/assets/a631e661-f940-4062-a2a6-0f3a46de38d2" />
 
 **Tech Stack:**
 * **Frontend**: React, TypeScript, Vite
@@ -52,15 +52,19 @@ Our system is designed with a clear data flow, from input to a comprehensive use
 
 ---
 
-## ⚙Methodology & Data
+## Methodology & Data
 
 ### CNN Model (Image-to-AQI)
-* **Dataset**: [Air Pollution Image Dataset](https://www.kaggle.com/datasets/vijayashreer/air-pollution-image-dataset) containing 456 real-world images categorized into 5 AQI levels.
+<img width="850" height="391" alt="AlexNet" src="https://github.com/user-attachments/assets/e91056ed-200a-48f3-baab-6dbefd9abfdf" />
+
+* **Dataset**: Air pollution image dataset, containing 456 real-world images categorized into 5 AQI levels.
 * **Purpose**: To classify an environmental image into an AQI category.
 * **Performance**: Achieves an AUC score of over 0.7, indicating reliable classification.
 
 ### RNN Model (Time-Series Forecasting)
-* **Dataset**: Official time-series data from the [Central Pollution Control Board (CPCB)](https://cpcb.nic.in/).
+<img width="984" height="499" alt="lstm" src="https://github.com/user-attachments/assets/cc383a5f-07e1-48dc-a830-f78096ebdf54" />
+
+* **Dataset**: Official time-series data from the Central Pollution Control Board.
 * **Purpose**: To analyze historical trends and generate multi-day AQI forecasts.
 * **Performance**: Our LSTM model has a Mean Absolute Error (MAE) of 32.
 
